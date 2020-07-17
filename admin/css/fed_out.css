@@ -1,0 +1,38 @@
+/*my csss*/
+
+.esea_out{
+     width: auto;
+  height: 100px;
+/*  background: red;*/
+/*    color: cyan;*/
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+  animation: mymove 30s infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s; 
+/*     animation-direction: alternate-reverse;*/
+/*    animation-timing-function: ease-in-out;*/
+/*     animation-timing-function: ease-in;*/
+}
+
+ /* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left:-400px;}
+  to {left:1300px;}
+}
+
+@keyframes mymove {
+  from {left: -400px;}
+  to {left: 1300px;}
+} 
+
+/* firefox 4.0 - 8.0 */
+@-moz-keyframes mymove{
+   from {left:-400px;}
+  to {left:1300px;}
+}
+@keyframes mymove{
+   from {left:-400px;}
+  to {left:1300px;}
+}

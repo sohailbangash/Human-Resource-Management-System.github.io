@@ -1,0 +1,64 @@
+#load-screen {
+background: url(../images/header-back.png);
+position: fixed;
+z-index: 10000;
+top:0px;
+width: 100%;
+height: 1600px;
+
+}
+
+
+#loading {
+
+width: 200px;
+height: 300px;
+margin: 10% auto;
+background: url(../images/loader.gif);
+background-size: 40%;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+/*my csss*/
+
+.esea_out{
+     width: auto;
+  height: 100px;
+/*  background: red;*/
+/*    color: cyan;*/
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+  animation: mymove 30s infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s; 
+/*     animation-direction: alternate-reverse;*/
+/*    animation-timing-function: ease-in-out;*/
+/*     animation-timing-function: ease-in;*/
+}
+
+ /* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left:-400px;}
+  to {left:1300px;}
+}
+
+@keyframes mymove {
+  from {left: -400px;}
+  to {left: 1300px;}
+} 
+
+/* firefox 4.0 - 8.0 */
+@-moz-keyframes mymove{
+   from {left:-400px;}
+  to {left:1300px;}
+}
+@keyframes mymove{
+   from {left:-400px;}
+  to {left:1300px;}
+}
+
+
+

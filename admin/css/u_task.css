@@ -1,0 +1,37 @@
+h6{
+    color: black;
+    font-size: 30px;
+text-align: center
+    margin-top: 5px;
+  margin-left: 1200px;
+
+}
+
+.li,ul{
+   margin-left: 200px;
+    display: block;
+}
+
+.mg-top{
+    margin-top: 30px;
+}
+
+
+.l{
+    height: 40px;
+    background: darkgray;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+ 
+}
+
+.t{
+   
+    margin-left: 100px;
+}
+.tt,th{
+    padding: 10px;
+    margin-left: 10px;
+}
